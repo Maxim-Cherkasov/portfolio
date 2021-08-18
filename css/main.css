@@ -382,6 +382,10 @@ h3, h6 {
   transition: all 0.5s ease-in-out;
 }
 
+.projects__btn:nth-child(1) {
+  order: 1;
+}
+
 .projects__btn:hover {
   color: #fff;
 }
