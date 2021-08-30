@@ -230,13 +230,14 @@
 }
 
 .about .jobs {
-  width: 60vw;
+  width: 80vw;
   margin: 2rem auto 0 auto;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   grid-gap: 2rem;
+  
 }
 
 .about .jobs__job {
