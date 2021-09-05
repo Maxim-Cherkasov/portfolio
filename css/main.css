@@ -254,6 +254,9 @@
 .about .jobs .jobs__job p {
   font-size: 1.3rem;
   padding: 1rem;
+  line-height: 1.7rem;
+  letter-spacing: 0.1rem;
+  
 }
 
 h3, h6 {
