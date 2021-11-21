@@ -193,7 +193,7 @@
 }
 
 .about__bio-image {
-  height: 50vh;
+  height: 40vh;
   width: 100%;
   background: -webkit-gradient(linear, left top, right top, from(rgba(39, 39, 39, 0.9)), to(rgba(39, 39, 39, 0.3))), url("../img/project-2.jpg") center top;
   background: linear-gradient(to right, rgba(39, 39, 39, 0.9), rgba(39, 39, 39, 0.3)), url("../img/project-2.jpg") center top;
@@ -226,7 +226,8 @@
 }
 
 .about__bio .text-secondary {
-  padding-bottom: 1rem;
+  padding-top: 10rem;
+  font-size: 3rem;
 }
 
 .about .jobs {
@@ -237,18 +238,19 @@
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
   grid-gap: 2rem;
-  
+  position: relative;
 }
 
 .about .jobs__job {
   background: #414141;
   padding: 0.5rem;
   border-bottom: 5px solid #ff652f;
+  z-index: 5;
 }
 
 .about .jobs .jobs__job h2 {
   font-size: 1.7rem;
-  padding: 0.3rem 1rem 0 1rem;
+  padding: 1.3rem 1rem 0 1rem;
 }
 
 .about .jobs .jobs__job p {
@@ -338,7 +340,7 @@ h3, h6 {
   cursor: pointer;
 }
 
-.project-hidden-1, .project-hidden-2, .project-hidden-3 {
+.project-hidden-2, .project-hidden-3 {
   display: none;
 }
 
@@ -442,6 +444,10 @@ h3, h6 {
   margin-bottom: 2rem;
 }
 
+.contact i {
+  padding-bottom: 1.5rem;
+}
+
 .contact__list {
   display: -ms-grid;
   display: grid;
@@ -512,8 +518,8 @@ h3, h6 {
 @media screen and (min-width: 1024px) {
   .projects__items {
     width: 50vw;
-    -ms-grid-columns: (1fr)[1];
-        grid-template-columns: repeat(1, 1fr);
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
   }
   .contact__list {
     -ms-grid-columns: (1fr)[3];
