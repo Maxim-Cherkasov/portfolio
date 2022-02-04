@@ -271,9 +271,33 @@ main .home .photo {
   letter-spacing: 0.08rem;
   
 }
-
+.about .jobs .jobs__job ul {
+ 
+  font-size: 1.3rem;
+  padding-bottom: 0.2rem;
+  list-style-type: none;
+  letter-spacing: 0.08rem;
+}
+.about .jobs .jobs__job ul li {
+  padding: 1rem;
+  padding-bottom: 0.2rem;
+  font-size: 1.3rem;
+  letter-spacing: 0.08rem;
+}
 h3, h6 {
   display: none;
+}
+h5 {
+  font-size: 1.5rem;
+  padding: 1.3rem 1rem 0 1rem;
+  
+}
+.call {
+  text-decoration: underline;
+  transition: color 0.5s ease;
+}
+.call:hover {
+  color: #ff652f;
 }
 
 .about .jobs__job h2, .about .jobs__job h3 {
