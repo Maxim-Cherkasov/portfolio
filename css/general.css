@@ -544,7 +544,6 @@ h5 {
   .contact__list {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
-        
         place-items: center;
   }
 }
