@@ -295,6 +295,7 @@ h5 {
 .call {
   text-decoration: underline;
   transition: color 0.5s ease;
+  margin: 0 auto;
 }
 .call:hover {
   color: #ff652f;
@@ -315,7 +316,7 @@ h5 {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
-          flex-direction: column;
+          flex-direction: row;
 }
 
 .about .social-icons a {
@@ -555,8 +556,7 @@ h5 {
         grid-template-columns: repeat(3, 1fr);
   }
   .contact__list {
-    -ms-grid-columns: (1fr)[3];
-        grid-template-columns: repeat(3, 1fr);
+    justify-items: start;
   }
 }
 
