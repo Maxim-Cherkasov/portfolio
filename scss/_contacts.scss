@@ -37,6 +37,9 @@
    // .contact__phone
 
    &__phone {
+      &_underline {
+         text-decoration: underline;
+      }
    }
 
    // .contact__address
@@ -44,27 +47,19 @@
    &__address {
    }
 }
-.fas {
-}
-.fa-envelope {
-}
-.text-secondary {
-}
-.fa-mobile-alt {
-}
-.fa-map-marker-alt {
-}
 .social-icons {
 }
 .fab {
 }
-.fa-twitter {
+.fa-telegram-plane {
+   padding: 0 0.5rem;
+
 }
 .fa-2x {
 }
-.fa-facebook {
+.fa-whatsapp {
+   padding-left: 0.5rem;
 }
-.fa-instagram {
-}
-.fa-github {
+.fa-mobile-alt {
+   padding-right: 0.5rem;
 }

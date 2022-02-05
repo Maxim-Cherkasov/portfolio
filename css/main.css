@@ -14,4 +14,20 @@
 .projects h2 {
   text-align: center;
 }
+
+.contact__phone_underline {
+  text-decoration: underline;
+}
+
+.fa-telegram-plane {
+  padding: 0 0.5rem;
+}
+
+.fa-whatsapp {
+  padding-left: 0.5rem;
+}
+
+.fa-mobile-alt {
+  padding-right: 0.5rem;
+}
 /*# sourceMappingURL=main.css.map */
